@@ -1,0 +1,9 @@
+:root[data-theme="light"] {
+    --color-black: rgb(33, 33, 33);
+    --color-white: rgb(204, 204, 204);
+}
+
+:root[data-theme="dark"] {
+    --color-black: rgb(204, 204, 204);
+    --color-white: rgb(33, 33, 33);
+}

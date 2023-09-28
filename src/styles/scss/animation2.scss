@@ -1,0 +1,23 @@
+@keyframes test {
+    from {
+        background-color: red;
+    } 
+    to {
+        background-color: black;
+    }
+}
+
+
+$block-count: 5;
+$animation-duration: 0.5s;
+$animation-delay-step: 0.3s;
+
+
+@media screen and (min-width: 1200px) {
+    @for $i from 1 through $block-count {
+        .icon:nth-child(#{$i}) {
+            animation-delay: $i * $animation-duration;
+            animation-duration: $i * $animation-delay-step;
+        }
+    }
+}

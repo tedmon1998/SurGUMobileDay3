@@ -1,0 +1,14 @@
+{
+    "ru": {
+        "settingsPage": {
+            "title": "Страницы настроек",
+            "text": "Изменение языка страницы и темы"
+        }
+    },
+    "en": {
+        "settingsPage": {
+            "title": "Settings pages",
+            "text": "Change page and theme language"
+        }
+    }
+}
